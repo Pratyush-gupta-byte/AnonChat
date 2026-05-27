@@ -15,3 +15,5 @@ def create_app(debug=False):
 
     socketio.init_app(app)
     return app
+
+app = create_app()
